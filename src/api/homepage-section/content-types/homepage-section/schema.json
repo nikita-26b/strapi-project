@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_sections",
+  "info": {
+    "singularName": "homepage-section",
+    "pluralName": "homepage-sections",
+    "displayName": "homepage-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "homepageimages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
